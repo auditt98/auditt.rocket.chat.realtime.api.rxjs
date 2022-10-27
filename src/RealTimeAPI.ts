@@ -215,9 +215,10 @@ export class RealTimeAPI {
   public getSubscription(
     streamName: string,
     streamParam: string,
-    addEvent: boolean
+    addEvent: boolean,
+    customId: string
   ) {
-    let id = uuid();
+    let id = customId || uuid();
     let subscription = this.webSocket.multiplex(
       () => ({
         msg: "sub",
