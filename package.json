@@ -1,5 +1,5 @@
 {
-  "name": "@auditt98/rocket.chat.realtime.api.rxjs",
+  "name": "auditt98-rocket.chat.realtime.api.rxjs",
   "version": "0.0.0-development",
   "description": "Abstraction for Utilizing Rocket.Chat's Realtime API Methods with RxJS",
   "main": "lib/index.js",
@@ -41,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/auditt98/auditt.rocket.chat.realtime.api.rxjs"
   },
   "keywords": [
     "Rocket.Chat",
