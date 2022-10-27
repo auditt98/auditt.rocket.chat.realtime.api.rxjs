@@ -1,6 +1,6 @@
 {
   "name": "auditt98-rocket.chat.realtime.api.rxjs",
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "description": "Abstraction for Utilizing Rocket.Chat's Realtime API Methods with RxJS",
   "main": "lib/index.js",
   "directories": {
