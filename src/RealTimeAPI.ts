@@ -219,6 +219,7 @@ export class RealTimeAPI {
     customId: string
   ) {
     let id = customId || uuid();
+    console.log('-------------CustomID', customId);
     let subscription = this.webSocket.multiplex(
       () => ({
         msg: "sub",
